@@ -1,0 +1,33 @@
+/* Estilo general */
+
+.titulo {
+	background-color: slateblue;
+	color: white;
+	font-family: Tahoma;
+	padding: 10px;
+}
+
+
+/* Estilo ejercicio 2 */
+
+legend{ font-family:Verdana; 
+ }
+
+form{ font-family:Calibri;
+      background-color:skyblue;
+	  color:darkblue;
+	  font-weight:bold;
+} 
+
+img{
+	width:50px;
+	}
+	
+.buy{  
+	padding:25px;
+	background-color:darkblue;
+	color:skyblue;
+	font-size:200%;
+	
+
+ }	

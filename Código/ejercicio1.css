@@ -1,0 +1,61 @@
+/* Estilo general */
+
+.titulo {
+	background-color: slateblue;
+	color: white;
+	font-family: Tahoma;
+	padding: 10px;
+}
+
+
+/* Estilo ejercicio 1 */
+
+.size {
+	
+	width: 250px;
+	box-shadow:2px 2px black;
+	
+	
+}
+
+
+
+
+table{
+	margin-top: 25px;
+	border: red 3px solid;
+	border-collapse: collapse
+}
+
+td{
+	border: red 3px solid;
+	font-family: Impact;
+	padding-left:5px;
+	
+	}
+	
+th{
+	font-family: Verdana;		
+	background-color:pink;
+	}	
+	
+.th1{    width: 15%; 
+     	 
+  }	
+.th2{    width: 60%;   }
+.th3{    width: 25%;   }
+
+
+table td:nth-child(1) {
+	    background-color:hotpink;
+	}
+
+
+
+
+#reproduciendo{
+	 background-color:yellow;
+	 font-weight: bold;
+	 color:red;
+	 text-shadow: 2px 2px black;
+	}

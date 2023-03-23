@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio 2</title>
+    <link rel="stylesheet" href="ejercicio2.css" />
+</head>
+<body>
+	<h1 class="titulo">Ejercicio 2. Venta de entradas</h1>
+
+
+<form name="venta_entradas" action="ejercicio2b.html" method="get" target="_blank">
+
+<fieldset form="venta_entradas" id=" entradas">
+
+<legend>Entradas</legend>
+
+<br>
+<label>Número de entradas:</label>
+<select  name="num_entradas" id="num_entradas">
+	<option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+</select>
+
+
+<br><br>
+
+<label>Categoría:</label><br>
+
+<select  name="num_entradas" id="num_entradas">
+	<option value="1">Pista General</option>
+    <option value="2">Gradas</option>
+    <option value="3">VIP</option>
+    
+</select>
+<br><br>
+</fieldset>
+
+
+
+<fieldset form="venta_entradas" id="datos_comprador">
+
+<legend>Datos del comprador</legend>
+<br>
+<label>Nombre:</label>
+<input type="text" id="nombre" name="nombre"><br><br>
+<label>Apellidos:</label>
+<input type="text" id="apellidos" name="apellidos"><br><br>
+<label>E-Mail::</label>
+<input type="email" id="email" name="email"><br><br>
+<label>Fecha de nacimiento:</label>
+<input type="date" id="nacimiento" name="nacimiento"><br><br>
+
+</fieldset>
+
+
+<fieldset form="venta_entradas" id="pago">
+
+<legend>Pago</legend>
+
+
+<p>Selecciona método de pago:</p>
+
+<input type="radio" name="pago" id"1" value="1" >
+<img src="img/visaLogo.png"><br>
+
+<input type="radio" name="pago" id"2" value="2" >
+<img src="img/masterLogo.png"><br>
+
+<input type="radio" name="pago" id"3" value="3" >
+<img src="img/paypalLogo.png"><br>
+
+<input type="radio" name="pago" id"4" value="4" >
+<img src="img/bizumLogo.jpg"><br><br>
+
+<input type="checkbox" name="pago" id"cbox" value="checkbox">
+<label>Acepto las condiciones de compra</label><br><br>
+
+<button type="submit" class="buy" value="pagar">Proceder al pago</button>
+
+</fieldset>
+</form>
+
+</body>
+</html>
